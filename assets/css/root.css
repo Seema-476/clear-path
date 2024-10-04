@@ -1,0 +1,140 @@
+:root {
+    /* font-size */
+    --font-xxsm: 10px;
+    --font-xsm: 12px;
+    --font-sm: 14px;
+    --font-md: 20px;
+    --font-lg: 20px;
+    --font-xl: 26px;
+
+    /* font-color */
+    --white: #ffffff;
+    --black: #000000;
+    --deep-blue: #1b3353;
+    --off-white: #fefefe;
+    --sky-blue: #eefaff;
+    --light-blue: #ddecff;
+    --gray: #f3f5f6;
+    --blue: #2ba8e0;
+    --box-shadow: #1B33531F;
+    --box-border: #1B335333;
+    --card-shadow: #00000017;
+    --border-gray: #1B335366;
+    --acco-border: #1B3353;
+    --light-gray: #f3f5f6;
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-deep-blue {
+    color: var(--deep-blue);
+}
+
+.color-off-white {
+    color: var(--off-white);
+}
+
+.color-sky-blue {
+    color: var(--sky-blue);
+}
+
+.color-light-blue {
+    color: var(--light-blue);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+/* bg-color */
+.bg-color-sky-blue {
+    background-color: var(--sky-blue);
+}
+
+.bg-color-light-blue {
+    background-color: var(--light-blue);
+}
+
+.bg-color-blue {
+    background-color: var(--blue);
+}
+
+.bg-color-deep-blue {
+    background-color: var(--deep-blue);
+}
+
+.bg-color-deep-blue {
+    background-color: var(--deep-blue);
+}
+
+.bg-color-off-white {
+    background-color: var(--off-white);
+}
+.bg-color-light-gray {
+    background-color: var(--light-gray);
+}
+
+/* font size */
+.font-xxsm {
+    font-size: var(--font-xxsm);
+}
+
+.font-xsm {
+    font-size: var(--font-xsm);
+}
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-md {
+    font-size: var(--font-md);
+}
+
+.font-lg {
+    font-size: var(--font-lg);
+}
+
+.font-xl {
+    font-size: var(--font-xl);
+}
+
+@media(min-width:576px) {
+    :root {
+        /* --font-xxsm: 10px;
+        --font-xsm: 12px;
+        --font-md: 20px; */
+        --font-xl: 30px;
+    }
+}
+
+@media(min-width:768px) {
+    :root {
+        /* --font-xxsm: 10px;
+        --font-xsm: 12px; */
+        --font-sm: 16px;
+        /* --font-md: 20px;*/
+        --font-lg: 24px;
+        --font-xl: 30px;
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        --font-xxsm: 10px;
+        --font-xsm: 12px;
+        --font-md: 20px;
+        --font-lg: 24px;
+        --font-xl: 40px;
+    }
+}
