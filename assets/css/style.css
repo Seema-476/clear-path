@@ -49,9 +49,6 @@
 }
 
 /* ==================== header ================ */
-/* .heading{
-    padding: 97px 0 0 0;
-} */
 header {
     padding: 48px 0 25px 0;
 }
@@ -82,6 +79,7 @@ header {
     border: 1px solid var(--blue);
     border-radius: 8px;
     max-width: 194px;
+    white-space: nowrap;
 }
 
 .sub-heading {
@@ -228,8 +226,12 @@ header {
     margin-bottom: 20px !important;
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
-    border: 1px solid var(--acco-border);
+    border: 1px solid var(--acco-border) !important;
     border-radius: 10px;
+}
+.border-left-radius{
+    border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
 }
 
 .accordion-body {
@@ -237,7 +239,7 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 0 20px 19px 20px;
-    max-width: 672px;
+    max-width: 674px;
 }
 
 .accordion-button {
@@ -245,7 +247,8 @@ header {
     border-radius: 10px;
     padding: 21px 20px 19px 20px;
 }
-.accordion-button:not(.collapsed)::after{
+
+.accordion-button:not(.collapsed)::after {
     content: "-";
     font-size: 70px;
     font-weight: 0;
@@ -256,22 +259,25 @@ header {
     position: absolute;
     color: var(--black);
     font-size: 40px;
-    /* font-weight: 700; */
     line-height: 23.36px;
     right: 20px;
-    top: 10px;
+    top: 25px;
     opacity: 70%;
-    border-radius: 2px;
     background-image: none !important;
 }
 
 button:focus:not(:focus-visible) {
     outline: 0 !important;
 }
+
 .accordion-button:focus {
     z-index: 0 !important;
     outline: 0 !important;
     box-shadow: none !important;
+}
+
+.accordion-py {
+    padding: 25px;
 }
 
 /* =============================  Interested In learning More?  ======================== */
@@ -421,6 +427,10 @@ button:focus:not(:focus-visible) {
         padding: 40px 0;
     }
 
+    .accordion-py {
+        padding: 40px;
+    }
+
     .learning-section {
         padding-top: 40px;
     }
@@ -453,6 +463,10 @@ button:focus:not(:focus-visible) {
 
     .learning-card-content {
         padding: 0 0 40px 0;
+    }
+
+    .accordion-py {
+        padding: 79px 0 65px 0;
     }
 
     .treatment-card-head {
