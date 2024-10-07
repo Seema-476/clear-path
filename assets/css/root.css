@@ -1,15 +1,12 @@
 :root {
     /* font-size */
-    --font-xxsm: 10px;
     --font-xsm: 12px;
     --font-sm: 14px;
-    --font-md: 20px;
+    --font-md: 18px;
     --font-lg: 20px;
     --font-xl: 26px;
 
     /* font-color */
-    --white: #ffffff;
-    --black: #000000;
     --deep-blue: #1b3353;
     --off-white: #fefefe;
     --sky-blue: #eefaff;
@@ -22,14 +19,6 @@
     --border-gray: #1B335366;
     --acco-border: #1B3353;
     --light-gray: #f3f5f6;
-}
-
-.color-white {
-    color: var(--white);
-}
-
-.color-black {
-    color: var(--black);
 }
 
 .color-deep-blue {
@@ -111,28 +100,19 @@
 
 @media(min-width:576px) {
     :root {
-        /* --font-xxsm: 10px;
-        --font-xsm: 12px;
-        --font-md: 20px; */
         --font-xl: 30px;
     }
 }
 
 @media(min-width:768px) {
     :root {
-        /* --font-xxsm: 10px;
-        --font-xsm: 12px; */
         --font-sm: 16px;
-        /* --font-md: 20px;*/
         --font-lg: 24px;
-        --font-xl: 30px;
     }
 }
 
 @media(min-width:992px) {
     :root {
-        --font-xxsm: 10px;
-        --font-xsm: 12px;
         --font-md: 20px;
         --font-lg: 24px;
         --font-xl: 40px;

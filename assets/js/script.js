@@ -1,5 +1,5 @@
-// scroll top btn 
-const topBtn = document.querySelector(".topBtn")
+// down to top btn 
+const topBtn = document.querySelector(".top-btn")
 
 window.addEventListener("scroll", function () {
     if (window.scrollY > 60) {
